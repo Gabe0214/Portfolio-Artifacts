@@ -330,7 +330,7 @@ a {
   }
 }
 #skills .skill-list ul li {
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   color: #fff;
 }
 #projects {
@@ -342,7 +342,7 @@ a {
   flex-direction: row;
   align-content: center;
   align-items: center;
-  margin-left: 15rem;
+  margin-left: 20rem;
 }
 @media (max-width:800px) {
   #projects .project-summary {
