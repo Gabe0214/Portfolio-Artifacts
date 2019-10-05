@@ -24,7 +24,7 @@ body{
  .bottom-line {
     
         height: 2px;
-        width: 5rem;
+        width: 4rem;
         background: #17f1ce ;
         display: block;
         margin: 0 auto 1rem auto;
@@ -35,7 +35,36 @@ body{
      font-weight: bold;
  }
 
- .header{
-     font-size: 2rem;
+ .heading{
+     font-size: 2.2rem;
      text-align: center;
+      @media @tablet {
+          padding-top: 1.2rem;
+      }
+     
+ }
+
+ ul{
+     list-style: circle;
+ }
+
+ li{
+     font-size: 1.6rem;
+     @media @tablet {
+         font-size: 1.4rem;
+     }
+
+     @media @phone {
+         font-size: 1.2rem;
+     }
+     
+ }
+
+ a{
+     text-decoration: none;
+     color: @primary-color;
+ }
+
+ .list-span {
+     color: @primary-color;
  }

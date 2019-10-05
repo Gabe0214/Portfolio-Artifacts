@@ -160,7 +160,7 @@ h4 {
 }
 .bottom-line {
   height: 2px;
-  width: 5rem;
+  width: 4rem;
   background: #17f1ce;
   display: block;
   margin: 0 auto 1rem auto;
@@ -169,9 +169,42 @@ h4 {
 span {
   font-weight: bold;
 }
-.header {
-  font-size: 2rem;
+.heading {
+  font-size: 2.2rem;
   text-align: center;
+}
+@media (max-width:800px) {
+  .heading {
+    padding-top: 1.2rem;
+  }
+}
+ul {
+  list-style: circle;
+}
+li {
+  font-size: 1.6rem;
+}
+@media (max-width:800px) {
+  li {
+    font-size: 1.4rem;
+  }
+}
+@media (max-width:500px) {
+  li {
+    font-size: 1.2rem;
+  }
+}
+a {
+  text-decoration: none;
+  color: #07D3EB;
+}
+.list-span {
+  color: #07D3EB;
+}
+@media (max-width:800px) {
+  #main-header {
+    margin-bottom: 2.2rem;
+  }
 }
 #main-header .main-nav {
   display: flex;
@@ -195,6 +228,11 @@ span {
   flex-direction: column;
   height: 50vh;
   align-content: center;
+}
+@media (max-width:800px) {
+  #about {
+    padding-bottom: 2.5rem;
+  }
 }
 #about h2 {
   text-align: center;
@@ -225,4 +263,95 @@ span {
 }
 #skills {
   background: #FB8477;
+}
+#skills .header-container {
+  padding-right: 2rem;
+}
+@media (max-width:800px) {
+  #skills .header-container {
+    padding-right: 0rem;
+  }
+}
+#skills .header-container h2 {
+  color: #fff;
+}
+@media (max-width:800px) {
+  #skills .header-container h2 {
+    padding-top: 1.5rem;
+  }
+}
+#skills .item-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+}
+@media (max-width:800px) {
+  #skills .item-container {
+    padding-left: 1.5rem;
+  }
+}
+@media (max-width:500px) {
+  #skills .item-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding-left: 1.2rem;
+  }
+}
+#skills .item-container .items h3 {
+  color: #fff;
+}
+@media (max-width:500px) {
+  #skills .item-container .items h3 {
+    font-size: 1.2rem;
+  }
+}
+#skills .item-container .items i {
+  color: #07D3EB;
+}
+#skills .skill-list {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  padding: 5rem 0;
+}
+#skills .skill-list ul {
+  list-style: circle;
+}
+@media (max-width:800px) {
+  #skills .skill-list ul {
+    list-style: circle;
+    width: 50%;
+  }
+}
+#skills .skill-list ul li {
+  font-size: 1.4rem;
+  color: #fff;
+}
+#projects {
+  margin-bottom: 5rem;
+}
+#projects .project-summary {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  margin-left: 15rem;
+}
+@media (max-width:800px) {
+  #projects .project-summary {
+    margin: 0 12rem;
+  }
+}
+@media (max-width:500px) {
+  #projects .project-summary {
+    margin: 0;
+    padding: 0 4rem 0 6rem;
+  }
 }

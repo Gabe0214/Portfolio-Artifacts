@@ -2,27 +2,27 @@
 
 function navitems() {
     const nav = document.querySelector('.main-nav')
-    //const home = document.createElement('a');
+    const project = document.createElement('a');
     const about = document.createElement('a');
     const skills = document.createElement('a');
 
     // set attribute
 
-    //home.href = "#home";
+    project.href = "#projects";
     about.href = "#about";
     skills.href = "#skills";
 
     // textContent 
 
-    ////home.textContent = 'Home';
+    project.textContent = 'Project';
     about.textContent = 'About';
     skills.textContent = 'Skills';
 
   // append
 
-  //nav.appendChild(home);
   nav.appendChild(about);
   nav.appendChild(skills);
+  nav.appendChild(project);
   
   return nav;
 
