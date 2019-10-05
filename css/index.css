@@ -136,3 +136,93 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+body {
+  line-height: 1.5;
+  color: #333;
+  box-sizing: border-box;
+}
+* {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-size: 1.5rem;
+  color: #333;
+  font-weight: bold;
+}
+.bottom-line {
+  height: 2px;
+  width: 5rem;
+  background: #17f1ce;
+  display: block;
+  margin: 0 auto 1rem auto;
+  margin-bottom: 2.2rem;
+}
+span {
+  font-weight: bold;
+}
+.header {
+  font-size: 2rem;
+  text-align: center;
+}
+#main-header .main-nav {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  padding: 1.4rem 0;
+}
+#main-header .main-nav a {
+  text-decoration: none;
+  color: #333;
+  font-size: 1.2rem;
+  font-family: 'Libre Baskerville';
+}
+#main-header .main-nav a:hover {
+  color: #07D3EB;
+}
+#about {
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 50vh;
+  align-content: center;
+}
+#about h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+#about .profile-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+  align-items: center;
+}
+#about .profile-container img {
+  width: 30%;
+  border-radius: 50%;
+  border: 2px solid #07D3EB;
+}
+#about .profile-container a {
+  text-decoration: none;
+  color: #07D3EB;
+}
+#about .profile-container a:hover {
+  color: #06a7b9;
+}
+#about .profile-container ul li {
+  font-size: 1.2rem;
+}
+#skills {
+  background: #FB8477;
+}
