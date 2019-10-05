@@ -1,0 +1,46 @@
+#about {
+ margin-bottom: 2rem;
+
+    @media @tablet {
+        padding-bottom: 2.5rem;
+    }
+    
+   .displayFlex(column, center);
+   height: 50vh;
+   align-content: center;
+    h2 {
+        text-align: center;
+        font-size: 2rem;
+        
+    }
+    .profile-container {
+        .displayFlex(column, center);
+        
+        align-content: center;
+        text-align: center;
+        align-items: center;
+        img{
+            width:30%;
+            border-radius: 50%;
+            border: 2px solid @primary-color;
+
+
+
+        }
+
+        a {
+            text-decoration: none;
+            color:@primary-color; 
+
+             &:hover {
+                 color: darken(@primary-color, 10%);
+             }
+        }
+
+        ul{ 
+            li {
+                font-size: 1.2rem;
+            }
+        }
+    }
+}
